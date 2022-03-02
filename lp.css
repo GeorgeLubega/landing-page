@@ -1,0 +1,30 @@
+.header{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+
+}
+ul li{
+    padding: 0px 20px;
+    text-decoration: none;
+}
+.header-left{
+    border: 2px solid white;
+    width: 370px;
+
+}
+.holder{
+    width: 300px;
+    height: 80px;
+    background-color: gray;
+    
+    text-align:center;
+    padding-top: 60px;
+    padding-left: 15px;
+}
