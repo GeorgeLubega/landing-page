@@ -3,7 +3,9 @@
     color: white;
     display: flex;
     justify-content: space-around;
-    height: 250px;
+    height: auto;
+    padding-left: 100px;
+    padding-right: 50px;
 }
 ul{
     display: flex;
@@ -13,9 +15,11 @@ ul{
 ul li{
     padding: 0px 20px;
     text-decoration: none;
+    font-size: 18px;
+    font-weight: #e5e7eb;
 }
 .header-left{
-    border: 2px solid white;
+
     width: 370px;
 
 }
@@ -23,8 +27,133 @@ ul li{
     width: 300px;
     height: 80px;
     background-color: gray;
-    
+    margin-top: 50px;
     text-align:center;
     padding-top: 60px;
     padding-left: 15px;
+    padding-right: 30px;
+}
+.awesome{
+    display: block;
+}
+.button-left{
+    padding: 5px 15px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+html{
+    width: 1200px;
+    padding-left: 200px;
+}
+header h1{
+    font-size: 48px;
+    font-weight: #F9FAF8;
+    margin-bottom: -15px;
+    margin-top: 60px;
+}
+header h3{
+    font-size: 24px;
+    font-weight: #f9faf8;
+}
+.li1{
+    width: 80px;
+    height: 80px;
+    border: 2px solid cornflowerblue;
+    border-radius: 10px;
+}
+.li2{
+    width: 80px;
+    height: 80px;
+    border: 2px solid cornflowerblue;
+    border-radius: 10px;
+}
+.li3{
+    width: 80px;
+    height: 80px;
+    border: 2px solid cornflowerblue;
+    border-radius: 10px;
+}
+.li4{
+    width: 80px;
+    height: 80px;
+    border: 2px solid cornflowerblue;
+    border-radius: 10px;
+}
+.li1, .li2, .li3, .li4{
+    padding: 0px 20px;
+    margin: 0px 70px
+}
+.empty-boxes{
+    justify-content: center;
+    margin-top: 50px;
+}
+.random{
+    text-align: center;
+    font-size: 36px;
+    font-weight: #1f2937;
+}
+.li5, .li6, .li7, .li8{
+    margin: 0px 70px;
+}
+.main1{
+
+    background-color: white;
+}
+.quote{
+    font-size: 36px;
+    font-family: light italic;
+    text-align: center;
+    padding-top: 100px;
+    padding-right: 30px;
+    
+}
+.but
+{display: block;
+
+}
+.pp{
+    text-align: end;
+
+}
+.main2{
+    background-color: #e5e7eb;
+    height: 300px;
+
+}
+.main4{
+    background-color: white;
+    height: 200px;
+}
+.subm{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    width: 700px;
+    margin-left: 250px;
+}
+.btnm4{
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 35px;
+    padding: 5px 10px;
+}
+.call, .prod{
+    color: white;
+}
+.prod{
+    margin-top: -20px;
+}
+.main5{
+    background-color: #1F2937;
+    height: 50px;
+    text-align: center;
+}
+.copym5{
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+
 }
